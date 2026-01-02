@@ -1,0 +1,37 @@
+ai-trend-opportunity-scanner/
+│
+├── frontend/                # Next.js app
+│   ├── app/                 # App Router
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── public/
+│   └── package.json
+│
+├── backend/                 # FastAPI app
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── api/
+│   │   ├── core/
+│   │   ├── models/
+│   │   ├── services/
+│   │   └── workers/
+│   ├── requirements.txt
+│   └── Dockerfile
+│
+├── scripts/                 # One-off scripts
+│   ├── google_trends.py
+│   ├── reddit_scraper.py
+│   └── tiktok_scraper.py
+│
+├── prompts/                 # LLM prompts
+│   ├── monetisation.txt
+│   ├── trend_summary.txt
+│   └── risk_analysis.txt
+│
+├── migrations/              # DB migrations (Supabase/SQL)
+│
+├── .env.example
+├── .gitignore
+├── README.md
+└── docker-compose.yml
